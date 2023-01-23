@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book AN Appointment</title>
+  
+    <script type="text/javascript">
+        function popup() {
+            alert("Appointment Is Confirmed !")
+        }
+    </script>
+</head>
+<html>
+
+<head>
+    <style type="text/css">
+        body {
+            background-image: url(backimghome.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 100;
+            text-align: justify;
+            background-position: center;
+            background-size: 100% 100%;
+            border-radius: 10px 10px;
+
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: left;
+            font-size: 25pt;
+            
+        }
+
+        h2 {
+            color: #dda0dd
+        }
+
+        p {
+            color: rgb(241, 241, 244)
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>To Book An Appointment</h1>
+        <label>Enter Name</label><br>
+        <input type="text" name="only text"><br>
+        <label>Contact</label><br>
+        <input type="number" max="10"><br>
+        <label>Address</label><br>
+        <input type="text" name="uname"><br>
+    </form>
+    <label>Purpose:</label><br>
+    <select id="Purpose">
+        <option value="volvo">RO Services</option>
+        <option value="saab">AC Services</option>
+        <option value="opel">TV Services</option>
+        <option value="audi">Other</option>
+    </select>
+    <br>
+    <form>
+        <label style='color:rgb(240, 240, 248);font-family:Arial Rounded MT;font-size:15px'>Visit Date</label><br>
+        <input type="date" name="dt" /> <br />
+    </form>
+
+    <input type="submit" onclick="popup()" value="Submit">
+
+    <input type="reset">
+    <h1>OR</h1>
+    <h4>Contact:9049384729/Ganuderkar@gmail.com</h4>
+    <b>Address:</b>
+    <address font-color="white">Behind D.ed College,Near Mohurle Kirana Store, Babupeth Chandrapur</address>
+    <P>We Provide all type of Services.RO,AC,Fridge And ETC.
+    </P>
+</body>
+
+</html>
